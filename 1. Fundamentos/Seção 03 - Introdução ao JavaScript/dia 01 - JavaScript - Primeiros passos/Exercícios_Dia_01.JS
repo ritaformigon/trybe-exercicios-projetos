@@ -291,11 +291,11 @@ else if (salarioBase >= 1903.99 && salarioBase <= 2826.65) {
  aliquotaIR = (7.5/100) * salarioBase - 142.80;
 }
 else if (salarioBase >= 2826.66 && salarioBase <= 3751.05) {
- aliquotaIR = (15.100) * salarioBase - 354.80;
+ aliquotaIR = (15/100) * salarioBase - 354.80;
 }
 
 else if (salarioBase >= 3751.06 && salarioBase <= 4664.68) {
- aliquotaIR = (22,5.100) * salarioBase - 636.13;
+ aliquotaIR = (22.5/100) * salarioBase - 636.13;
 }
 else {
  aliquotaIR = (27.5/100) * salarioBase - 869.36;
